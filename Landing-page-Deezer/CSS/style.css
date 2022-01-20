@@ -5,18 +5,20 @@
 }
 nav {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    background-color: blue;
 }
-.container > ul li {
-    display: inline;
-    list-style-type: none;
-    
+.nav {
+    display: flex;
 }
-.logo {
+ nav, ul {
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
+    justify-content: space-between;
+    align-items: center;
+} 
+nav ul li {
+    list-style-type: none;
+    color: white;
 }
 
 
