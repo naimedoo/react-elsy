@@ -1,11 +1,15 @@
 @font-face {
     font-family: "Oswald";
-    src:  url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald&family=Poppins&family=Roboto&display=swap');
+    src:  url('./../font/Oswald/static/Oswald-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
    }
 
    @font-face {
     font-family: "Courgette";
-    src: url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald&family=Poppins&family=Roboto&display=swap');
+    src: url('./../font/Courgette-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
    }
 
 *, 
@@ -15,22 +19,34 @@
     margin: 0;
     padding: 0;
 }
-h1, h2 {
+h1 , h2 {
+   font-family:'Courgette-Regular';
   color: white;
 }
 header {
- background-image: url(../ressources/header.jpg); 
+ background-image: url( "../ressources/header.jpg"); 
  background-size: cover;
  background-repeat: no-repeat;
- position: absolute;
+ /* position: absolute; */
  width: 100%;
- height: 100vh;
+ height: 100vh; 
 }
 .head {
   opacity: 0.66;
   background-color: black;
   height: 100vh;
 } 
+h3 {
+  color: black;
+  font-size: 1.2rem;
+  font-family:'Courgette-Regular';
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+article {
+  display: block;
+}
+
 
 
 
