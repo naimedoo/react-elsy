@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/main.css">
     <link rel="stylesheet" href="./CSS/homepage.css">
-    <title>Cui'zine</title>
+    <title>Blog Cui'zine</title>
 </head>
 <body>
     <header>
-      <div class="head">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="head"> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-dark border-2">
           <div class="container-fluid">
             <a class="navbar-brand text-light" href="#">Cui'zine</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> 
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Accueil</a>
@@ -35,42 +35,50 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div> 
         </nav>
         <div class="container">
-          <div class="row">
-            <div class="col-8 offset-4">
-              <img src="./ressources/logo_square_white.png" id="logo-kitchen" alt="logo-kitchen">
-              <h1>Cui'zine</h1>
-              <h2>Le mag cuisine</h2>
-            </div>
+          <div class="row col-4 offset-4 d-flex justify-content-center mt-5">
+             <div class="logo-kitchen m-0"> 
+              <img src="./ressources/logo_square_white.png" class="d-flex justify-content-center" id="logo-kitchen" alt="logo-kitchen">
+              <h1 class="d-flex justify-content-center text-light">Cui'zine</h1>
+              <h2 class="d-flex justify-content-center text-light">Le mag cuisine</h2>
+            </div> 
           </div>
         </div>
-      </div>
+      </div> 
       </header>
+
       <!------------------------------ MAIN ----------------------------------------->
-      <section>
+      <main>
+       <section>
         <h3 class="text-center pt-3">Derniers articles</h3>
-        <article>
-          <div class="container-fluid">
-            <div class="row">
+        
+          <div class="container-fluid m-5">
+            <article>
+            <div class="row"> 
               <div class="col-2">
-                <img src="./ressources/articles/metro/suzette/suzette-header.jpg" width="135" height="120" alt="...">
+                <img src="./ressources/articles/metro/suzette/suzette-header.jpg" width="200" height="150" alt="...">
               </div>
-              <div class=" col-8">
+              <div class="col-6">
                 <h3>Cher Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
                 <p>La franchise "chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans
                   le quartier latin. Antoine de
                   Cui'zine a testé pour vous les saveurs sucrés,salés au froment ou au sarrazin!
                 </p>
               </div>
+                <form>
+                    <label for="exampleInputEmail1" class="form-label fw-bold">Recherche</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" width="200"aria-describedby="emailHelp" placeholder="recherche...">
+                    <button type="button" class="btn btn-lighty btn-md border-dark border-2 fw-bold">OK</button>
+              </form>
         </article>
         <article>
           <div class="row">
             <div class="col-2">
-              <img src="./ressources/articles/metro/metro-header.jpg" width="150" height="120" alt="">
+              <img src="./ressources/articles/metro/metro-header.jpg" width="200" height="150" alt="">
             </div>
-            <div class=" col-8">
+            <div class="col-6">
               <h3>Le Metro dessert</h3>
               <p>Germain est ferrovipathe (ndlr:fan de train), son fils Maxime est pâtissier. ils ont décidé de réunir leur
                 deux passions dans un
@@ -79,13 +87,18 @@
                 et nous donne son avis.
               </p>
             </div>
+            <form>
+              <label for="exampleInputEmail1" class="form-label">Newsletter</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" width="200"aria-describedby="emailHelp" placeholder="s'inscrire...">
+              <button type="button" class="btn btn-lighty btn-md border-dark border-2 fw-bold">OK</button>
+        </form>
         </article>
         <article>
-          <div class="row">
+          <div class="row"> 
             <div class="col-2">
-              <img src="./ressources/articles/metro/vitaly/vitaly-header.jpg" width="150" height="120" alt="">
+              <img src="./ressources/articles/metro/vitaly/vitaly-header.jpg" width="200" height="150" alt="">
             </div>
-            <div class=" col-8">
+            <div class=" col-6">
               <h3>Vitality, le végan italien</h3>
               <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait,les saveurs de l'Italie à portée
                 des herbivores.Cette fois,
@@ -95,6 +108,7 @@
         </article>
         </div>
       </section>
+    </main>
     
 
 

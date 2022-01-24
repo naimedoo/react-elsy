@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Oswald";
+    src:  url('./../font/Oswald/static/Oswald-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+   @font-face {
+    font-family: "Courgette";
+    src: url('./../font/Courgette-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+*, 
+::before, 
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Courgette";
+}
+#logo-kitchen{
+   padding: 2rem;
+  padding-top: 6rem;
+  width: 175px;  
+}  
+h1 h2 {
+  font-family:'Courgette-Regular';
+  color: white;
+  /* margin: 0;
+  padding: 0; */
+}
+header {
+ background-image: url( "../ressources/header.jpg"); 
+ background-position-x: center;
+ background-position-y: center;
+} 
+ .head {
+  opacity: 0.77;
+  background-color: black;
+  height: 100vh;
+}  
+ h3 {
+  color: black;
+  font-size: 1.2rem;
+  font-family:'Oswald';
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+ section img {
+    margin-bottom: 20px;
+
+} 
+article {
+  margin-top: 55px;
+}
+button {
+  width: 200px;
+}
+label {
+  font-weight: bold;
+}
