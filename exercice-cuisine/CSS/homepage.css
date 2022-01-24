@@ -50,16 +50,13 @@ header {
   font-weight: bold;
   font-size: 1.4rem;
 }
- section img {
-    margin-bottom: 20px;
-
-} 
- article {
+ 
+ /* article {
   margin-top: 55px;
-}
-button {
+} */
+/* button {
   width: 200px;
-} 
+}  */
 label {
   font-weight: bold;
 }

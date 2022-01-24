@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/main.css">
     <link rel="stylesheet" href="./CSS/homepage.css">
@@ -51,70 +52,64 @@
 
       <!------------------------------ MAIN ----------------------------------------->
 
-      <main>
-      
-        <h3 class="text-center pt-4">Derniers articles</h3>
-        <aside>
-          <div class="float-right">
-            <form>
-              <label for="exampleInputEmail1" class="form-label fw-bold">Recherche</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" width="200"aria-describedby="emailHelp" placeholder="recherche...">
-              <button type="button" class="btn btn-lighty btn-md border-dark border-2 fw-bold">OK</button>
-             <div>
-                <label for="exampleInputEmail1" class="form-label">Newsletter</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" width="200"aria-describedby="emailHelp" placeholder="s'inscrire...">
-                <button type="button" class="btn btn-lighty btn-md border-dark border-2 fw-bold">OK</button>
-              </form>
-              </div>
-              <p>partager</p>
-            </div>
-          </aside>
-          <section>
-         <div class="container">
-           <article>
-            <div class="row"> 
-              <div class="col-2">
-                <img src="./ressources/articles/metro/suzette/suzette-header.jpg" width="200" height="150" alt="...">
-              </div>
-              <div class="col-8 offset-1">
+      <main class="container">
+        <div class="row">
+          <h3 class="text-center pt-4 col-12 mb-4">Derniers articles</h3>
+         
+          <section class="col-9">
+            <article class="row">
+              <img src="./ressources/articles/metro/suzette/suzette-header.jpg" class="col-4 mb-4" alt="...">
+              <div class="col-8">
                 <h3>Cher Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
                 <p>La franchise "chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans
-                  le quartier latin. Antoine de
-                  Cui'zine a testé pour vous les saveurs sucrés,salés au froment ou au sarrazin!
+                le quartier latin. Antoine de
+                Cui'zine a testé pour vous les saveurs sucrés,salés au froment ou au sarrazin!
                 </p>
-              </div>
-         </article>
-        <article>
-          <div class="row">
-            <div class="col-2">
-              <img src="./ressources/articles/metro/metro-header.jpg" width="200" height="150" alt="">
-            </div>
-            <div class="col-8 offset-1">
-              <h3>Le Metro dessert</h3>
-              <p>Germain est ferrovipathe (ndlr:fan de train), son fils Maxime est pâtissier. ils ont décidé de réunir leur
+            </article>
+            <article class="row">
+              <img src="./ressources/articles/metro/metro-header.jpg" class="col-4 mb-4" alt="">
+              <div class="col-8">
+                <h3>Le Metro dessert</h3>
+                <p>Germain est ferrovipathe (ndlr:fan de train), son fils Maxime est pâtissier. ils ont décidé de réunir leur
                 deux passions dans un
                 restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ?
                 Clémentine entre en gare
                 et nous donne son avis.
-              </p>
-            </div>
-        </article>
-        <article>
-          <div class="row"> 
-            <div class="col-2">
-              <img src="./ressources/articles/metro/vitaly/vitaly-header.jpg" width="200" height="150" alt="">
-            </div>
-            <div class=" col-8 offset-1">
-              <h3>Vitality, le végan italien</h3>
-              <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait,les saveurs de l'Italie à portée
+                </p>
+              </div>
+            </article>
+            <article class="row">
+              <img src="./ressources/articles/metro/vitaly/vitaly-header.jpg" class="col-4 mb-4" alt="">
+              <div class="col-8">
+                <h3>Vitality, le végan italien</h3>
+                <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait,les saveurs de l'Italie à portée
                 des herbivores.Cette fois,
                 c'est moi Tony qui vais tester pour vous.
-              </p>
-            </div>
-          </article>
+                </p>
+              </div>
+            </article>
+          </section>
+          <aside class="col-lg-3">
+              <form>
+                <div class="form-group">
+                 <label class="labels">Recherche</label>
+                  <input class="form-control" type="search" placeholder="Recherche..." aria-label="search">
+                  <button class="btn btn-outline-dark col-12" type="submit">OK</button>
+                </div>
+                <div class="form-group">
+                  <label class="labels">Newsletter</label>
+                   <input class="form-control" type="Email" placeholder="S'inscrire..." aria-label="search">
+                   <button class="btn btn-outline-dark col-12" type="submit">OK</button>
+                 </div>
+                </form>
+          <p>partager</p>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-twitter"></i>
+         </aside> 
         </div>
-      </section>
-     </main>
+      </main>
 
      <!--------------------- FOOTER --------------------->
       <footer>
@@ -138,7 +133,7 @@
           </div>
           <div class="col-2">
             <label for="exampleInputEmail1" class="form-label text-light">Newsletter</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" width="200"aria-describedby="emailHelp" placeholder="Email...">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email...">
             <button type="button" class="btn btn-lighty btn-md border-dark border-2">OK</button>
           </div>
           </div>
