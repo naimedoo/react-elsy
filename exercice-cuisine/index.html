@@ -50,35 +50,46 @@
       </header>
 
       <!------------------------------ MAIN ----------------------------------------->
+
       <main>
-       <section>
-        <h3 class="text-center pt-3">Derniers articles</h3>
-        
-          <div class="container-fluid m-5">
-            <article>
+      
+        <h3 class="text-center pt-4">Derniers articles</h3>
+        <aside>
+          <div class="float-right">
+            <form>
+              <label for="exampleInputEmail1" class="form-label fw-bold">Recherche</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" width="200"aria-describedby="emailHelp" placeholder="recherche...">
+              <button type="button" class="btn btn-lighty btn-md border-dark border-2 fw-bold">OK</button>
+             <div>
+                <label for="exampleInputEmail1" class="form-label">Newsletter</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" width="200"aria-describedby="emailHelp" placeholder="s'inscrire...">
+                <button type="button" class="btn btn-lighty btn-md border-dark border-2 fw-bold">OK</button>
+              </form>
+              </div>
+              <p>partager</p>
+            </div>
+          </aside>
+          <section>
+         <div class="container">
+           <article>
             <div class="row"> 
               <div class="col-2">
                 <img src="./ressources/articles/metro/suzette/suzette-header.jpg" width="200" height="150" alt="...">
               </div>
-              <div class="col-6">
+              <div class="col-8 offset-1">
                 <h3>Cher Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
                 <p>La franchise "chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans
                   le quartier latin. Antoine de
                   Cui'zine a testé pour vous les saveurs sucrés,salés au froment ou au sarrazin!
                 </p>
               </div>
-                <form>
-                    <label for="exampleInputEmail1" class="form-label fw-bold">Recherche</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" width="200"aria-describedby="emailHelp" placeholder="recherche...">
-                    <button type="button" class="btn btn-lighty btn-md border-dark border-2 fw-bold">OK</button>
-              </form>
-        </article>
+         </article>
         <article>
           <div class="row">
             <div class="col-2">
               <img src="./ressources/articles/metro/metro-header.jpg" width="200" height="150" alt="">
             </div>
-            <div class="col-6">
+            <div class="col-8 offset-1">
               <h3>Le Metro dessert</h3>
               <p>Germain est ferrovipathe (ndlr:fan de train), son fils Maxime est pâtissier. ils ont décidé de réunir leur
                 deux passions dans un
@@ -87,27 +98,53 @@
                 et nous donne son avis.
               </p>
             </div>
-            <form>
-              <label for="exampleInputEmail1" class="form-label">Newsletter</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" width="200"aria-describedby="emailHelp" placeholder="s'inscrire...">
-              <button type="button" class="btn btn-lighty btn-md border-dark border-2 fw-bold">OK</button>
-        </form>
         </article>
         <article>
           <div class="row"> 
             <div class="col-2">
               <img src="./ressources/articles/metro/vitaly/vitaly-header.jpg" width="200" height="150" alt="">
             </div>
-            <div class=" col-6">
+            <div class=" col-8 offset-1">
               <h3>Vitality, le végan italien</h3>
               <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait,les saveurs de l'Italie à portée
                 des herbivores.Cette fois,
                 c'est moi Tony qui vais tester pour vous.
               </p>
             </div>
-        </article>
+          </article>
         </div>
       </section>
+     </main>
+
+     <!--------------------- FOOTER --------------------->
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4">
+              <h4 class="text-light">Catégories</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Revues</a></li>
+                <li><a href="#">Recettes</a></li>
+                <li><a href="#">Découvertes</a></li>
+              </ul>
+            </div>
+          <div class="col-4">
+            <h4 class="text-light">Archives</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">2019</a></li>
+              <li><a href="#">2018</a></li>
+              <li><a href="#">2017</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <label for="exampleInputEmail1" class="form-label text-light">Newsletter</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" width="200"aria-describedby="emailHelp" placeholder="Email...">
+            <button type="button" class="btn btn-lighty btn-md border-dark border-2">OK</button>
+          </div>
+          </div>
+        </div>
+        </div>
+      </footer>
     </main>
     
 

@@ -54,12 +54,16 @@ header {
     margin-bottom: 20px;
 
 } 
-article {
+ article {
   margin-top: 55px;
 }
 button {
   width: 200px;
-}
+} 
 label {
   font-weight: bold;
+}
+footer {
+  background-color: #000000;
+  padding: 75px;
 }
