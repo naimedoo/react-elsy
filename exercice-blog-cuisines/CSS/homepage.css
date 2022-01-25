@@ -51,16 +51,13 @@ header {
   font-size: 1.4rem;
 }
  
- /* article {
-  margin-top: 55px;
-} */
-/* button {
-  width: 200px;
-}  */
 label {
   font-weight: bold;
 }
+.paragraph {
+  font-family: "Oswald";
+}
 footer {
   background-color: #000000;
-  padding: 75px;
+  padding: 70px;
 }
