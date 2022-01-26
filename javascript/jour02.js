@@ -37,16 +37,72 @@ console.log(float);
 
   // 06 - Condition
 
-  let limit = 50;
-  let score = 35;
-  if (score >= limit) {
-      console.log("ok good")
-  } else {
-      console.log("Oh nooo...")
-  }
+//   let limit = 50;
+//   let score = 35;
+//   if (score >= limit) {
+//       console.log("ok good")
+//   } else {
+//       console.log("Oh nooo...")
+//   }
  
   // 07 - Condition II
+//    let password = "azerty";
+//    if (password.length > 5) {
+//        console.log("The password is secure")
+//    }
+
+   // 08 - Condition III
+
+   const limit = 50;
+   let score = 35;
    let password = "azerty";
-   if (password.length > 5) {
-       console.log("The password is secure")
+
+   if ( score < limit && password.length > 5) {
+       console.log("Everything is good");
+   } else if (score > limit || password > 5 ) {
+       console.log("Something is good");
+   } else {
+       console.log("Nothing is good");
    }
+
+   // Bonus 
+   let random = 5;
+
+   if (random === 6) {
+       console.log("Yes I win !");
+   } else {
+       console.log("so close...")
+   } 
+
+   // Bonus II
+
+   let month = "April";
+   switch (month) {
+       case "december":
+       case "january":
+       case "february":
+           console.log("winter")
+       break;
+       case "March":
+       case "April":
+       case "May":
+        console.log("spring")
+       break;
+       case"june":
+       case "august":
+       case"july":
+        console.log("summer")
+       break;  
+       case "default" :
+        console.log("fall")
+       break;
+    }
+
+    //  Bonus III
+    let roundedNumber = 3.6;
+
+    if (roundedNumber) {
+        console.log(Math.round(Math.floor(roundedNumber)))
+    } else {
+        console.log(Math.round(Math.ceil(roundedNumber)))
+    }
