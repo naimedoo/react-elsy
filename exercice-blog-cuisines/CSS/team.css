@@ -1,0 +1,32 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Courgette";
+}
+header {
+   background-image: url("../ressources/team/team.jpg");
+   background-position-x: center;
+   background-position-y: center;
+   height: 100vh;
+}
+nav {
+    background-color: #000000ac;
+    opacity: 0.66;
+}
+.head {
+    background-color: #000000ac;
+    opacity: 0.88;
+    height: 100vh;
+}
+.row {
+    margin-top: 10rem;
+}
+main img {
+   height: 10rem;
+   width: 10rem;
+}

@@ -1,11 +1,11 @@
-@font-face {
+  @font-face {
     font-family: "Oswald";
     src:  url('./../font/Oswald/static/Oswald-Regular.ttf');
     font-weight: normal;
     font-style: normal;
    }
 
-   @font-face {
+  @font-face {
     font-family: "Courgette";
     src: url('./../font/Courgette-Regular.ttf');
     font-weight: normal;
@@ -30,8 +30,6 @@ body {
 h1 h2 {
   font-family:'Courgette-Regular';
   color: white;
-  /* margin: 0;
-  padding: 0; */
 }
 header {
  background-image: url( "../ressources/header.jpg"); 

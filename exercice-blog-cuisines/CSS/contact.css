@@ -1,0 +1,36 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Courgette";
+}
+
+header {
+    background-image: url(".././ressources/header.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+}
+nav {
+    background-color: #000000ac;
+    opacity: 0.66;
+    
+}
+.header-content {
+    background-color: #000000ac;
+    height: 100vh;
+}
+label {
+    font-weight: bold;
+}
+aside p {
+    font-weight: bold;
+}
+footer {
+    background-color: black;
+    padding: 70px;
+}
