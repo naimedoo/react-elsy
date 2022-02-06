@@ -24,13 +24,13 @@ nav {
     background-color: #000000ac;
     height: 100vh;
 }
-label {
+/* label {
     font-weight: bold;
-}
+} */
 aside p {
     font-weight: bold;
 }
-footer {
+/* footer {
     background-color: black;
     padding: 70px;
-}
+} */

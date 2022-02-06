@@ -48,14 +48,7 @@ header {
   font-weight: bold;
   font-size: 1.4rem;
 }
- 
-label {
-  font-weight: bold;
-}
 .paragraph {
   font-family: "Oswald";
 }
-footer {
-  background-color: #000000;
-  padding: 70px;
-}
+
