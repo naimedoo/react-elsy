@@ -4,6 +4,7 @@ let integer = 102;
 let float = 13.9;
 console.log(integer);
 console.log(float);
+
  // 03- Round
 
  let sum = 1.5;
@@ -12,7 +13,7 @@ console.log(float);
 
  // 02 - Convert
  let basic = 34;
- let stringified = "34";
+ let stringified = basic.toString();
  console.log(stringified);
 
  // 04 - Arithmétique
@@ -35,21 +36,21 @@ console.log(float);
   console.log(test != bis);
   console.log(test !== bis);
 
-  // 06 - Condition
+// 06 - Condition
 
-//   let limit = 50;
-//   let score = 35;
-//   if (score >= limit) {
-//       console.log("ok good")
-//   } else {
-//       console.log("Oh nooo...")
-//   }
+   let limit = 50;
+  let score = 35;
+   if (score >= limit) {
+       console.log("ok good")
+   } else {
+       console.log("Oh nooo...")
+ }
  
   // 07 - Condition II
-//    let password = "azerty";
-//    if (password.length > 5) {
-//        console.log("The password is secure")
-//    }
+    let password = "azerty";
+    if (password.length > 5) {
+        console.log("The password is secure")
+    }
 
    // 08 - Condition III
 
@@ -99,10 +100,12 @@ console.log(float);
     }
 
     //  Bonus III
-    let roundedNumber = 3.6;
+    let roundedNumber = 6.3;
 
-    if (roundedNumber) {
-        console.log(Math.round(Math.floor(roundedNumber)))
-    } else {
-        console.log(Math.round(Math.ceil(roundedNumber)))
-    }
+     if (roundedNumber < 0) {
+         console.log(Math.round(Math.floor(roundedNumber)).toString())
+     } if(roundedNumber > 0) {
+         console.log(Math.round(Math.ceil(roundedNumber)).toString())
+     }
+    
+  
