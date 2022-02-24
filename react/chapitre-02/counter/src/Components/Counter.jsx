@@ -3,10 +3,12 @@ import React from 'react';
 export default class Counter extends React.Component {
     render() {
         return (
-            <div>
+            <div className='container-fluid'>
+                <div className="row">
             <h2>{this.props.count}</h2>
-            <button style={{background:"green"}} onClick={this.props.removeFunction}>-</button>
-            <button style={{background:"red"}} onClick={this.props.addFunction}>+</button>
+            <button style={{background:"gray"}} onClick={this.props.count != 0 ? this.props.removeFunction : " "}>-</button>
+            <button style={{background:"black"}} onClick={this.props.addFunction}>+</button>
+            </div>
             </div>
         )
        

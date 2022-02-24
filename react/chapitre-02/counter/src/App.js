@@ -1,5 +1,6 @@
 import React from 'react';
 import Counter from './Components/Counter';
+import './styles/Global.css'
 
 
 class App extends React.Component {
@@ -11,8 +12,7 @@ class App extends React.Component {
   }
   
 decrementCount = () => {
-  console.log("test")
-  const updateCount = this.state.count - 1;
+const updateCount = this.state.count - 1;
   this.setState({
     count : updateCount
   })
@@ -28,7 +28,7 @@ incrementCount = () => {
        return ( 
         <div>
         <h1>Counter</h1> 
-        <Counter count={this.state.count} addFunction= {this.incrementCount} removeFunction={this.decrementCount} />
+        <Counter count={this.state.count} addFunction= {this.incrementCount} removeFunction={this.decrementCount}/>
        </div>
       )
   }

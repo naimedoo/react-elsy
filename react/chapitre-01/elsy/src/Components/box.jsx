@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Box(props) {
+export default function Box(props) {
     return (
        <div className='box col-sm-3 col-6'>
         <span className ="material-icons" style={{fontSize : "100px",color:props.color}}>{props.icon}</span>
@@ -8,4 +8,3 @@ function Box(props) {
       </div>
     )
 }
-export default Box;
