@@ -36,11 +36,19 @@ header {
  background-position-x: center;
  background-position-y: center;
 } 
+
  .head {
   opacity: 0.77;
   background-color: black;
   height: 100vh;
+  
 }  
+.spoon {
+  margin-left: 2em;
+} 
+.title-mag{
+  margin-left: 0.6em;
+}
  h3 {
   color: black;
   font-size: 1.2rem;
